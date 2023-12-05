@@ -17,10 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if (empty($_POST["nim"])) {
     $nimErr = "NIM wajib diisi";
-    $nim_Default = 22090027;
+    $nim_Default = 22090126;
   } else {
     $nim = test_input($_POST["nim"]);
-    $nim_Default = 22090027;
+    $nim_Default = 22090126;
   }
   if (empty($_POST["nama"])) {
     $namaErr = "Nama wajib diisi";
